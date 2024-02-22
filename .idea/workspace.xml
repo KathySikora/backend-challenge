@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/421f5ab6-94df-4e0a-96d7-74b3c4f34958.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/421f5ab6-94df-4e0a-96d7-74b3c4f34958.xml" afterDir="false" />
+    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="database connection and api endpoint added">
+      <change afterPath="$PROJECT_DIR$/public/scripts/insertData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/762498c5-7d58-4779-b6d8-2487b5cf5267.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/762498c5-7d58-4779-b6d8-2487b5cf5267.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/sports.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/sports.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,6 +31,7 @@
   <component name="Git.Settings">
     <option name="PATH_TO_GIT" value="C:\Program Files\Git\bin\git.exe" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -57,6 +61,11 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\k.sikora.ext\PhpstormProjects\backend-challenge\public\scripts" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,8 +76,16 @@
       <updated>1708505977643</updated>
       <workItem from="1708505978810" duration="887000" />
       <workItem from="1708521806784" duration="5054000" />
-      <workItem from="1708587656076" duration="951000" />
+      <workItem from="1708587656076" duration="4873000" />
     </task>
+    <task id="LOCAL-00001" summary="database connection and api endpoint added">
+      <created>1708588796240</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708588796240</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +101,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="database connection and api endpoint added" />
+    <option name="LAST_COMMIT_MESSAGE" value="database connection and api endpoint added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

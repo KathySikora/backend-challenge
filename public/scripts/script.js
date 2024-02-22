@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function displayEvents(events) {
-    const eventsList = document.querySelector('#eventsList'); // Ensure you have an element with this ID in your HTML
+    const eventsList = document.querySelector('#eventsList');
     events.forEach(event => {
         const eventElement = document.createElement('li');
         eventElement.textContent = `${event.date} ${event.time} - ${event.sport}: ${event.team1} vs ${event.team2} at ${event.location}`;

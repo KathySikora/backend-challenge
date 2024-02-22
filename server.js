@@ -12,15 +12,17 @@ app.get('/', (req, res) => {
 });
 
 app.get('/api/events', (req, res) => {
-    const sql = `SELECT Events.id, Events.date, Events.time, Sports.name AS sport, 
-                 Team1.name AS team1, Team2.name AS team2, Events.location
+    const sql = `SELECT Events.id, Events.date, Events.time, Sports.name AS sport,
+                        Team1.name AS team1, Team2.name AS team2, Events.location
                  FROM Events
-                 JOIN Sports ON Events.sport_id = Sports.id
-                 JOIN Teams AS Team1 ON Events.team1_id = Team1.id
-                 JOIN Teams AS Team2 ON Events.team2_id = Team2.id`;
+                          JOIN Sports ON Events.sport_id = Sports.id
+                          JOIN Teams AS Team1 ON Events.team1_id = Team1.id
+                          JOIN Teams AS Team2 ON Events.team2_id = Team2.id`;
 
     db.all(sql, [], (err, rows) => {
+        console.log("Rows returned: ", rows.length);
         if (err) {
+            console.error("Error fetching events: ", err.message);
             res.status(400).json({ "error": err.message });
             return;
         }
@@ -29,6 +31,7 @@ app.get('/api/events', (req, res) => {
             "data": rows
         });
     });
+
 });
 
 app.listen(PORT, () => {

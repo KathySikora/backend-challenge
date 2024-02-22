@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="sportsEventDb" uuid="421f5ab6-94df-4e0a-96d7-74b3c4f34958">
-      <driver-ref>sqlite.xerial</driver-ref>
-      <synchronize>true</synchronize>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:C:\Users\k.sikora.ext\PhpstormProjects\backend-challenge\database\sportsEventDb</jdbc-url>
-      <working-dir>$ProjectFileDir$</working-dir>
-    </data-source>
     <data-source source="LOCAL" name="sports" uuid="762498c5-7d58-4779-b6d8-2487b5cf5267">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
