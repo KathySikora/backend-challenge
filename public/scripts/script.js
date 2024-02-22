@@ -6,10 +6,16 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function displayEvents(events) {
-    const eventsList = document.querySelector('#eventsList');
+    const tableBody = document.querySelector('#eventsTable tbody');
     events.forEach(event => {
-        const eventElement = document.createElement('li');
-        eventElement.textContent = `${event.date} ${event.time} - ${event.sport}: ${event.team1} vs ${event.team2} at ${event.location}`;
-        eventsList.appendChild(eventElement);
+        const row = tableBody.insertRow();
+        row.innerHTML = `
+            <td>${event.date}</td>
+            <td>${event.time}</td>
+            <td>${event.sport}</td>
+            <td>${event.team1}</td>
+            <td>${event.team2}</td>
+            <td>${event.location}</td>
+        `;
     });
 }

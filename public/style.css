@@ -1,0 +1,24 @@
+#eventsTable {
+    width: 60%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+#eventsTable th, #eventsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#eventsTable th {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#eventsTable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#eventsTable tr:hover {
+    background-color: #ddd;
+}
