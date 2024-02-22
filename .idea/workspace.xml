@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="database insertion added">
-      <change afterPath="$PROJECT_DIR$/public/style.css" afterDir="false" />
+    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="styled table in frontend">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/scripts/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +68,7 @@
       <updated>1708505977643</updated>
       <workItem from="1708505978810" duration="887000" />
       <workItem from="1708521806784" duration="5054000" />
-      <workItem from="1708587656076" duration="5491000" />
+      <workItem from="1708587656076" duration="6437000" />
     </task>
     <task id="LOCAL-00001" summary="database connection and api endpoint added">
       <created>1708588796240</created>
@@ -87,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708594137834</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="styled table in frontend">
+      <created>1708594658492</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708594658492</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,7 +111,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="database connection and api endpoint added" />
     <MESSAGE value="database insertion added" />
-    <option name="LAST_COMMIT_MESSAGE" value="database insertion added" />
+    <MESSAGE value="styled table in frontend" />
+    <option name="LAST_COMMIT_MESSAGE" value="styled table in frontend" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
