@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="added erd screenshot">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/421f5ab6-94df-4e0a-96d7-74b3c4f34958.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/sports.db" beforeDir="false" afterPath="$PROJECT_DIR$/database/sports.db" afterDir="false" />
+    <list default="true" id="376dd47e-87d4-4128-b0cf-38c10b3181bc" name="Changes" comment="added readme file">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +70,7 @@
       <workItem from="1708521806784" duration="5054000" />
       <workItem from="1708587656076" duration="7113000" />
       <workItem from="1708940265378" duration="6057000" />
-      <workItem from="1708957477478" duration="919000" />
+      <workItem from="1708957477478" duration="1276000" />
     </task>
     <task id="LOCAL-00001" summary="database connection and api endpoint added">
       <created>1708588796240</created>
@@ -102,7 +100,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708595635184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added readme file">
+      <created>1708963731963</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1708963731963</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +129,8 @@
     <MESSAGE value="database insertion added" />
     <MESSAGE value="styled table in frontend" />
     <MESSAGE value="added erd screenshot" />
-    <option name="LAST_COMMIT_MESSAGE" value="added erd screenshot" />
+    <MESSAGE value="added readme file" />
+    <option name="LAST_COMMIT_MESSAGE" value="added readme file" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

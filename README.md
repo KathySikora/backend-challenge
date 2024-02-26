@@ -35,3 +35,7 @@ node insertData.js
 ## Start Application
 
 To start the project you can use the following command. This command starts your server. By default, your application will be accessible at http://localhost:3000/.
+
+```bash
+npm start
+````
